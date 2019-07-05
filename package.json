@@ -1,0 +1,17 @@
+{
+  "name": "FirePushServer",
+  "version": "1.0.0",
+  "description": "Notification Push Server using APN and Firebase Admin",
+  "main": "fireServer1.js",
+  "scripts": {
+    "server:fireServer1": "node fireServer1.js",
+    "server:fireServer2": "node fireServer2.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fireServer1.js"
+  },
+  "author": "Erik Flores",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^8.2.0"
+  }
+}
