@@ -10,7 +10,7 @@ var registrationToken = "fu_ZmjkcvVM:APA91bEm6JRtJh7KsHPQfuaoi2RZ-jY4tmw4oDDRf2r
 
 var payload = {
     notification: {
-        title: "Welcome to Firebase",
+        title: "FirebaseServer I",
         body: "Firebase is a great platform!",
       },
     apns: {
@@ -26,7 +26,7 @@ var payload = {
     },
     token: registrationToken,
     data: {
-      "otherName": "Extra demo data",
+      "otherData": "Extra demo data",
       "attachment-url":"https://imgur.com/a/TPD7VBP"
     }
 };

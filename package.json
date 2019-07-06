@@ -4,8 +4,9 @@
   "description": "Notification Push Server using APN and Firebase Admin",
   "main": "fireServer1.js",
   "scripts": {
-    "server:fireServer1": "node fireServer1.js",
-    "server:fireServer2": "node fireServer2.js",
+    "server:fire1": "node fireServer1.js",
+    "server:fire2": "node fireServer2.js",
+    "server:fire3": "node fireServer3.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node fireServer1.js"
   },
