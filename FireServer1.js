@@ -15,7 +15,7 @@ var payload = {
       body: "Firebase is a great platform!",
     },
     android :{
-      ttl: "86400s",
+      ttl: 86400,
       notification: {
         click_action: "OPEN_ACTIVITY_1"
       }
